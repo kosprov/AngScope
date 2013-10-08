@@ -1,7 +1,9 @@
-AngScope -Simple AngularJS Scope Inspector for Firebug
+AngScope
 ========
 
-This is simple Firebug extention that allows you to inspect the AngularJS scope that a DOM element binds to.
+# Simple AngularJS Scope Inspector for Firebug
+
+This is a simple Firebug extention that allows you to inspect the AngularJS scope that a DOM element binds to.
 
 __Usage:__
 

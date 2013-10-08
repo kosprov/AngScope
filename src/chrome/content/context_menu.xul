@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<overlay id="angscope-overlay"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="chrome://angscope/content/context_menu.js" type="application/x-javascript"/>
+  <commandset id="mainCommandSet">
+    <command id="cmd_inspectAngScope" oncommand="AngScopeFbModule.inspectAngScope()"/>
+  </commandset>
+	<popup id="contentAreaContextMenu">
+		<menuseparator id="angscope-separator" insertbefore="angscope-action" />
+		<menuitem id="angscope-action" image="chrome://angscope/skin/icon16.png" class="menuitem-iconic" label="Inspect Angular Scope" command="cmd_inspectAngScope" />
+	</popup>
+</overlay> 

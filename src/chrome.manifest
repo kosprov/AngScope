@@ -1,0 +1,7 @@
+content angscope chrome/content/
+
+skin    angscope classic/1.0   chrome/skin/classic/
+
+overlay chrome://firebug/content/firebugOverlay.xul         chrome://angscope/content/firebug_module.xul
+overlay	chrome://browser/content/browser.xul	chrome://angscope/content/context_menu.xul
+
