@@ -5,7 +5,7 @@ This is a simple Firebug extention that allows you to inspect the AngularJS scop
 __Usage:__
 
 Simply right-click on an element and select "Inspect Angular Scope" from the context menu. 
-If want more fine-grained selection of elements, you can use it from inside Firebug, e.g. from the HTML panel.
+For more fine-grained selection of elements, you can use it from inside Firebug, e.g. from the HTML panel.
 Basically, any DOM element - be it in the HTML panel, DOM panel breadcrumb, logged in the console etc - that binds to 
 an Angular JS scope, has a "Inspect Angular Scope" context menu item.
 
