@@ -4,7 +4,10 @@
         if (angular && Firebug) {
             var scope = angular.element(gContextMenu.target).scope();
             if (scope) {
-                Firebug.chrome.select(scope, 'dom');
+            	Firebug.browserOverlay.startFirebug(function() {
+            		Firebug.toggleBar(true);
+               	Firebug.chrome.select(scope, 'dom');	
+            	});
             }
         }
     }
